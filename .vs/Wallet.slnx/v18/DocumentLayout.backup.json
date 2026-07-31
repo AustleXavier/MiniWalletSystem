@@ -1,0 +1,313 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88E4C151-AEEE-B9F7-4280-03FFBE617D47}|Wallet.Api\\Wallet.Api.csproj|d:\\austle\\workouts\\wallet\\wallet\\wallet.api\\controllers\\walletscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E4C151-AEEE-B9F7-4280-03FFBE617D47}|Wallet.Api\\Wallet.Api.csproj|solutionrelative:wallet.api\\controllers\\walletscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FBC06F6-C64E-71DA-413D-86F551F7479B}|Wallet.Infrastructure\\Wallet.Infrastructure.csproj|d:\\austle\\workouts\\wallet\\wallet\\wallet.infrastructure\\walletmanager\\walletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FBC06F6-C64E-71DA-413D-86F551F7479B}|Wallet.Infrastructure\\Wallet.Infrastructure.csproj|solutionrelative:wallet.infrastructure\\walletmanager\\walletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E1C1D8F-93A9-CAE1-FA36-DE9D84FCCE90}|Wallet.Domain\\Wallet.Domain.csproj|d:\\austle\\workouts\\wallet\\wallet\\wallet.domain\\entities\\walletentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E1C1D8F-93A9-CAE1-FA36-DE9D84FCCE90}|Wallet.Domain\\Wallet.Domain.csproj|solutionrelative:wallet.domain\\entities\\walletentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B2908F-7D82-2E81-4931-CA37CFC1CC79}|Wallet.Application\\Wallet.Application.csproj|d:\\austle\\workouts\\wallet\\wallet\\wallet.application\\features\\wallets\\walletcontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6B2908F-7D82-2E81-4931-CA37CFC1CC79}|Wallet.Application\\Wallet.Application.csproj|solutionrelative:wallet.application\\features\\wallets\\walletcontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E4C151-AEEE-B9F7-4280-03FFBE617D47}|Wallet.Api\\Wallet.Api.csproj|d:\\austle\\workouts\\wallet\\wallet\\wallet.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E4C151-AEEE-B9F7-4280-03FFBE617D47}|Wallet.Api\\Wallet.Api.csproj|solutionrelative:wallet.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E4C151-AEEE-B9F7-4280-03FFBE617D47}|Wallet.Api\\Wallet.Api.csproj|d:\\austle\\workouts\\wallet\\wallet\\wallet.api\\controllers\\transferscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E4C151-AEEE-B9F7-4280-03FFBE617D47}|Wallet.Api\\Wallet.Api.csproj|solutionrelative:wallet.api\\controllers\\transferscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E4C151-AEEE-B9F7-4280-03FFBE617D47}|Wallet.Api\\Wallet.Api.csproj|d:\\austle\\workouts\\wallet\\wallet\\wallet.api\\contracts\\walletrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E4C151-AEEE-B9F7-4280-03FFBE617D47}|Wallet.Api\\Wallet.Api.csproj|solutionrelative:wallet.api\\contracts\\walletrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FBC06F6-C64E-71DA-413D-86F551F7479B}|Wallet.Infrastructure\\Wallet.Infrastructure.csproj|d:\\austle\\workouts\\wallet\\wallet\\wallet.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FBC06F6-C64E-71DA-413D-86F551F7479B}|Wallet.Infrastructure\\Wallet.Infrastructure.csproj|solutionrelative:wallet.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FBC06F6-C64E-71DA-413D-86F551F7479B}|Wallet.Infrastructure\\Wallet.Infrastructure.csproj|d:\\austle\\workouts\\wallet\\wallet\\wallet.infrastructure\\dataaccessmanager\\persistence\\walletdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FBC06F6-C64E-71DA-413D-86F551F7479B}|Wallet.Infrastructure\\Wallet.Infrastructure.csproj|solutionrelative:wallet.infrastructure\\dataaccessmanager\\persistence\\walletdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B2908F-7D82-2E81-4931-CA37CFC1CC79}|Wallet.Application\\Wallet.Application.csproj|d:\\austle\\workouts\\wallet\\wallet\\wallet.application\\features\\wallets\\commands\\walletcommandhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6B2908F-7D82-2E81-4931-CA37CFC1CC79}|Wallet.Application\\Wallet.Application.csproj|solutionrelative:wallet.application\\features\\wallets\\commands\\walletcommandhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B2908F-7D82-2E81-4931-CA37CFC1CC79}|Wallet.Application\\Wallet.Application.csproj|d:\\austle\\workouts\\wallet\\wallet\\wallet.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6B2908F-7D82-2E81-4931-CA37CFC1CC79}|Wallet.Application\\Wallet.Application.csproj|solutionrelative:wallet.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B2908F-7D82-2E81-4931-CA37CFC1CC79}|Wallet.Application\\Wallet.Application.csproj|d:\\austle\\workouts\\wallet\\wallet\\wallet.application\\features\\wallets\\validators\\walletcommandvalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6B2908F-7D82-2E81-4931-CA37CFC1CC79}|Wallet.Application\\Wallet.Application.csproj|solutionrelative:wallet.application\\features\\wallets\\validators\\walletcommandvalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E1C1D8F-93A9-CAE1-FA36-DE9D84FCCE90}|Wallet.Domain\\Wallet.Domain.csproj|d:\\austle\\workouts\\wallet\\wallet\\wallet.domain\\wallet.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E1C1D8F-93A9-CAE1-FA36-DE9D84FCCE90}|Wallet.Domain\\Wallet.Domain.csproj|solutionrelative:wallet.domain\\wallet.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E4C151-AEEE-B9F7-4280-03FFBE617D47}|Wallet.Api\\Wallet.Api.csproj|d:\\austle\\workouts\\wallet\\wallet\\wallet.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88E4C151-AEEE-B9F7-4280-03FFBE617D47}|Wallet.Api\\Wallet.Api.csproj|solutionrelative:wallet.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Infrastructure\\Migrations\\20260730111232_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Wallet.Infrastructure\\Migrations\\20260730111232_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E4C151-AEEE-B9F7-4280-03FFBE617D47}|Wallet.Api\\Wallet.Api.csproj|d:\\austle\\workouts\\wallet\\wallet\\wallet.api\\wallet.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{88E4C151-AEEE-B9F7-4280-03FFBE617D47}|Wallet.Api\\Wallet.Api.csproj|solutionrelative:wallet.api\\wallet.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FBC06F6-C64E-71DA-413D-86F551F7479B}|Wallet.Infrastructure\\Wallet.Infrastructure.csproj|d:\\austle\\workouts\\wallet\\wallet\\wallet.infrastructure\\wallet.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0FBC06F6-C64E-71DA-413D-86F551F7479B}|Wallet.Infrastructure\\Wallet.Infrastructure.csproj|solutionrelative:wallet.infrastructure\\wallet.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WalletsController.cs",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Api\\Controllers\\WalletsController.cs",
+              "RelativeDocumentMoniker": "Wallet.Api\\Controllers\\WalletsController.cs",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Api\\Controllers\\WalletsController.cs",
+              "RelativeToolTip": "Wallet.Api\\Controllers\\WalletsController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:56:53.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WalletService.cs",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Infrastructure\\WalletManager\\WalletService.cs",
+              "RelativeDocumentMoniker": "Wallet.Infrastructure\\WalletManager\\WalletService.cs",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Infrastructure\\WalletManager\\WalletService.cs",
+              "RelativeToolTip": "Wallet.Infrastructure\\WalletManager\\WalletService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:41:52.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Wallet.Api\\Program.cs",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Api\\Program.cs",
+              "RelativeToolTip": "Wallet.Api\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T10:45:31.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WalletContracts.cs",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Application\\Features\\Wallets\\WalletContracts.cs",
+              "RelativeDocumentMoniker": "Wallet.Application\\Features\\Wallets\\WalletContracts.cs",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Application\\Features\\Wallets\\WalletContracts.cs",
+              "RelativeToolTip": "Wallet.Application\\Features\\Wallets\\WalletContracts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:34:29.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WalletEntities.cs",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Domain\\Entities\\WalletEntities.cs",
+              "RelativeDocumentMoniker": "Wallet.Domain\\Entities\\WalletEntities.cs",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Domain\\Entities\\WalletEntities.cs",
+              "RelativeToolTip": "Wallet.Domain\\Entities\\WalletEntities.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwBwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:28:07.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WalletRequests.cs",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Api\\Contracts\\WalletRequests.cs",
+              "RelativeDocumentMoniker": "Wallet.Api\\Contracts\\WalletRequests.cs",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Api\\Contracts\\WalletRequests.cs",
+              "RelativeToolTip": "Wallet.Api\\Contracts\\WalletRequests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:54:47.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TransfersController.cs",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Api\\Controllers\\TransfersController.cs",
+              "RelativeDocumentMoniker": "Wallet.Api\\Controllers\\TransfersController.cs",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Api\\Controllers\\TransfersController.cs",
+              "RelativeToolTip": "Wallet.Api\\Controllers\\TransfersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:56:28.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WalletDbContext.cs",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Infrastructure\\DataAccessManager\\Persistence\\WalletDbContext.cs",
+              "RelativeDocumentMoniker": "Wallet.Infrastructure\\DataAccessManager\\Persistence\\WalletDbContext.cs",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Infrastructure\\DataAccessManager\\Persistence\\WalletDbContext.cs",
+              "RelativeToolTip": "Wallet.Infrastructure\\DataAccessManager\\Persistence\\WalletDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:40:36.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Wallet.Application\\DependencyInjection.cs",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Wallet.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:39:31.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WalletCommandHandlers.cs",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Application\\Features\\Wallets\\Commands\\WalletCommandHandlers.cs",
+              "RelativeDocumentMoniker": "Wallet.Application\\Features\\Wallets\\Commands\\WalletCommandHandlers.cs",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Application\\Features\\Wallets\\Commands\\WalletCommandHandlers.cs",
+              "RelativeToolTip": "Wallet.Application\\Features\\Wallets\\Commands\\WalletCommandHandlers.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAACwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:34:11.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Wallet.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Wallet.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:32:17.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WalletCommandValidators.cs",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Application\\Features\\Wallets\\Validators\\WalletCommandValidators.cs",
+              "RelativeDocumentMoniker": "Wallet.Application\\Features\\Wallets\\Validators\\WalletCommandValidators.cs",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Application\\Features\\Wallets\\Validators\\WalletCommandValidators.cs",
+              "RelativeToolTip": "Wallet.Application\\Features\\Wallets\\Validators\\WalletCommandValidators.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:34:21.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Wallet.Domain.csproj",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Domain\\Wallet.Domain.csproj",
+              "RelativeDocumentMoniker": "Wallet.Domain\\Wallet.Domain.csproj",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Domain\\Wallet.Domain.csproj",
+              "RelativeToolTip": "Wallet.Domain\\Wallet.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-29T21:00:21.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Wallet.Api\\appsettings.json",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Api\\appsettings.json",
+              "RelativeToolTip": "Wallet.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-30T10:23:02.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20260730111232_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Infrastructure\\Migrations\\20260730111232_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Wallet.Infrastructure\\Migrations\\20260730111232_InitialCreate.cs",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Infrastructure\\Migrations\\20260730111232_InitialCreate.cs",
+              "RelativeToolTip": "Wallet.Infrastructure\\Migrations\\20260730111232_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T11:12:32.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Wallet.Api.csproj",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Api\\Wallet.Api.csproj",
+              "RelativeDocumentMoniker": "Wallet.Api\\Wallet.Api.csproj",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Api\\Wallet.Api.csproj",
+              "RelativeToolTip": "Wallet.Api\\Wallet.Api.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-29T21:06:35.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Wallet.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Infrastructure\\Wallet.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Wallet.Infrastructure\\Wallet.Infrastructure.csproj",
+              "ToolTip": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Infrastructure\\Wallet.Infrastructure.csproj",
+              "RelativeToolTip": "Wallet.Infrastructure\\Wallet.Infrastructure.csproj",
+              "ViewState": "AgIAAAQAAAAAAAAAAABBwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-29T20:59:41.745Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

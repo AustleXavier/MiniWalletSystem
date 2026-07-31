@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "tp8iaWNpVrc=",
+  "success": true,
+  "projectFilePath": "D:\\Austle\\WORKOUTS\\Wallet\\Wallet\\Wallet.Application\\Wallet.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Austle\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\Austle\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\Austle\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

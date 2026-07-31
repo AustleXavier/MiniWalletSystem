@@ -1,0 +1,11 @@
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Domain\bin\Debug\net10.0\Wallet.Domain.deps.json
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Domain\bin\Debug\net10.0\Wallet.Domain.dll
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Domain\bin\Debug\net10.0\Wallet.Domain.pdb
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Domain\obj\Debug\net10.0\Wallet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Domain\obj\Debug\net10.0\Wallet.Domain.AssemblyInfoInputs.cache
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Domain\obj\Debug\net10.0\Wallet.Domain.AssemblyInfo.cs
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Domain\obj\Debug\net10.0\Wallet.Domain.csproj.CoreCompileInputs.cache
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Domain\obj\Debug\net10.0\Wallet.Domain.dll
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Domain\obj\Debug\net10.0\refint\Wallet.Domain.dll
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Domain\obj\Debug\net10.0\Wallet.Domain.pdb
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Domain\obj\Debug\net10.0\ref\Wallet.Domain.dll

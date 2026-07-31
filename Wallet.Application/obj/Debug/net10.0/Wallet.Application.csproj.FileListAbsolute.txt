@@ -1,0 +1,15 @@
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Application\bin\Debug\net10.0\Wallet.Application.deps.json
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Application\bin\Debug\net10.0\Wallet.Application.dll
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Application\bin\Debug\net10.0\Wallet.Application.pdb
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Application\obj\Debug\net10.0\Wallet.Application.csproj.AssemblyReference.cache
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Application\obj\Debug\net10.0\Wallet.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Application\obj\Debug\net10.0\Wallet.Application.AssemblyInfoInputs.cache
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Application\obj\Debug\net10.0\Wallet.Application.AssemblyInfo.cs
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Application\obj\Debug\net10.0\Wallet.Application.csproj.CoreCompileInputs.cache
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Application\obj\Debug\net10.0\Wallet.Application.dll
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Application\obj\Debug\net10.0\refint\Wallet.Application.dll
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Application\obj\Debug\net10.0\Wallet.Application.pdb
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Application\obj\Debug\net10.0\ref\Wallet.Application.dll
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Application\bin\Debug\net10.0\Wallet.Domain.dll
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Application\bin\Debug\net10.0\Wallet.Domain.pdb
+D:\Austle\WORKOUTS\Wallet\Wallet\Wallet.Application\obj\Debug\net10.0\Wallet.A.B937E800.Up2Date
