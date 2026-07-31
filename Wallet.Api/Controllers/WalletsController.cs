@@ -10,6 +10,21 @@ namespace Wallet.Api.Controllers;
 [Route("api/wallets")]
 public sealed class WalletsController(IWalletService wallets, CreateWalletHandler createWallet, CreditWalletHandler creditWallet, DebitWalletHandler debitWallet) : ControllerBase
 {
+    [HttpGet]
+    public async Task<ActionResult<PagedResponse<WalletResponse>>> Wallets([FromQuery] DateTimeOffset? fromDate, [FromQuery] DateTimeOffset? toDate, [FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 50, CancellationToken ct = default)
+    {
+        if (pageNumber < 1 || pageSize is < 1 or > 100)
+            return BadRequest(new ValidationProblemDetails(
+                new Dictionary<string, string[]>
+                {
+                    ["paging"] = new[] { "Page number must be >= 1 and page size must be 1-100." }
+                })
+            {
+                Status = StatusCodes.Status400BadRequest
+            });
+
+        return Ok(await wallets.GetWalletAsync(fromDate, toDate, pageNumber, pageSize, ct));
+    }
     [HttpPost]
     [ProducesResponseType(typeof(WalletResponse), StatusCodes.Status201Created)]
     public async Task<IActionResult> Create(CreateWalletRequest request, CancellationToken ct)

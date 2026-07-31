@@ -1,0 +1,54 @@
+{
+  "info": {
+    "_postman_id": "4d7d77b0-f37f-4d14-9c6b-7c3650e15870",
+    "name": "Mini Wallet API",
+    "description": "Import this collection into Postman. Create wallets first; the create request stores the resulting wallet ID automatically.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:5271" },
+    { "key": "walletId", "value": "" },
+    { "key": "destinationWalletId", "value": "" }
+  ],
+  "item": [
+    {
+      "name": "Wallets",
+      "item": [
+        {
+          "name": "Create Wallet",
+          "event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": ["if (pm.response.code === 201) {", "    pm.collectionVariables.set('walletId', pm.response.json().walletId);", "}"] } }],
+          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"name\": \"Alice\",\n  \"email\": \"alice@example.com\",\n  \"mobileNumber\": \"+971500000001\",\n  \"initialBalance\": 100\n}" }, "url": "{{baseUrl}}/api/wallets" }
+        },
+        {
+          "name": "Get All Wallets",
+          "request": { "method": "GET", "header": [], "url": "{{baseUrl}}/api/wallets?pageNumber=1&pageSize=50" }
+        },
+        {
+          "name": "Get Wallet Balance",
+          "request": { "method": "GET", "header": [], "url": "{{baseUrl}}/api/wallets/{{walletId}}" }
+        },
+        {
+          "name": "Credit Wallet",
+          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"amount\": 25.00,\n  \"referenceId\": \"credit-001\"\n}" }, "url": "{{baseUrl}}/api/wallets/{{walletId}}/credit" }
+        },
+        {
+          "name": "Debit Wallet",
+          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"amount\": 10.00,\n  \"referenceId\": \"debit-001\"\n}" }, "url": "{{baseUrl}}/api/wallets/{{walletId}}/debit" }
+        },
+        {
+          "name": "Transaction History",
+          "request": { "method": "GET", "header": [], "url": "{{baseUrl}}/api/wallets/{{walletId}}/transactions?pageNumber=1&pageSize=50" }
+        }
+      ]
+    },
+    {
+      "name": "Transfers",
+      "item": [
+        {
+          "name": "Transfer Between Wallets",
+          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"fromWalletId\": \"{{walletId}}\",\n  \"toWalletId\": \"{{destinationWalletId}}\",\n  \"amount\": 15.00,\n  \"referenceId\": \"transfer-001\"\n}" }, "url": "{{baseUrl}}/api/transfers" }
+        }
+      ]
+    }
+  ]
+}

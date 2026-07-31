@@ -24,7 +24,8 @@ public sealed class WalletService(WalletDbContext db, ILogger<WalletService> log
         
         if (c.InitialBalance > 0) 
             db.Transactions.Add(NewTransaction(w, TransactionType.Credit, c.InitialBalance, "INITIAL-" + w.Id));
-        await SaveAsync(ct); return Map(w);
+        await SaveAsync(ct); 
+        return Map(w);
     }
     public Task<WalletResponse> CreditAsync(MoneyCommand c, CancellationToken ct) 
         => ChangeBalanceAsync(c, TransactionType.Credit, false, ct);
@@ -45,7 +46,10 @@ public sealed class WalletService(WalletDbContext db, ILogger<WalletService> log
             throw new DomainException("Insufficient wallet balance.");
         
         w.Balance += debit ? -c.Amount : c.Amount; w.UpdatedAt = DateTimeOffset.UtcNow; w.Version++;
-        db.Transactions.Add(NewTransaction(w, type, c.Amount, c.ReferenceId)); await SaveAsync(ct); await tx.CommitAsync(ct);
+        db.Transactions.Add(NewTransaction(w, type, c.Amount, c.ReferenceId)); 
+        
+        await SaveAsync(ct); 
+        await tx.CommitAsync(ct);
         logger.LogInformation("{Type} processed for wallet {WalletId}, ref {ReferenceId}", type, w.Id, c.ReferenceId); return Map(w);
     }
     public async Task<WalletResponse> TransferAsync(TransferCommand c, CancellationToken ct)
@@ -77,7 +81,8 @@ public sealed class WalletService(WalletDbContext db, ILogger<WalletService> log
         from.Version++; to.Version++;
         db.Transactions.Add(NewTransaction(from, TransactionType.TransferDebit, c.Amount, c.ReferenceId));
         db.Transactions.Add(NewTransaction(to, TransactionType.TransferCredit, c.Amount, c.ReferenceId + ":CREDIT"));
-        await SaveAsync(ct); await tx.CommitAsync(ct); 
+        await SaveAsync(ct); 
+        await tx.CommitAsync(ct); 
         logger.LogInformation("Transfer {ReferenceId} completed", c.ReferenceId); return Map(from);
     }
     public async Task<WalletResponse?> GetAsync(Guid id, CancellationToken ct) 
@@ -99,8 +104,22 @@ public sealed class WalletService(WalletDbContext db, ILogger<WalletService> log
             q = q.Where(x => x.CreatedAt <= to);
 
         var total = await q.CountAsync(ct); 
-        var items = await q.OrderByDescending(x => x.CreatedAt).Skip((page - 1) * size).Take(size).Select(x => new TransactionResponse(x.Id,x.WalletId,x.Type,x.Amount,x.BalanceBefore,x.BalanceAfter,x.ReferenceId,x.Status,x.CreatedAt)).ToListAsync(ct);
-        return new(items, page, size, total);
+        var items = await q.Skip((page - 1) * size).Take(size).Select(x => new TransactionResponse(x.Id,x.WalletId,x.Type,x.Amount,x.BalanceBefore,x.BalanceAfter,x.ReferenceId,x.Status,x.CreatedAt)).ToListAsync(ct);
+        return new(items.OrderByDescending(x=>x.CreatedAt).ToList(), page, size, total);
+    }
+    public async Task<PagedResponse<WalletResponse>> GetWalletAsync(DateTimeOffset? from, DateTimeOffset? to, int pageNumber, int pageSize, CancellationToken ct)
+    {
+        var q = db.Wallets.AsNoTracking();
+
+          if (from.HasValue)
+                q = q.Where(x => x.UpdatedAt >= from);
+
+        if (to.HasValue)
+            q = q.Where(x => x.UpdatedAt <= to);
+
+        var total = await q.CountAsync(ct);
+        var items = await q.Skip((pageNumber - 1) * pageSize).Take(pageSize).Select(x => new WalletResponse(x.Id, x.Name,x.Balance,x.UpdatedAt)).ToListAsync(ct);
+        return new(items.ToList(), pageNumber, pageSize, total);
     }
     private static void Validate(decimal amount, string reference) 
     { 

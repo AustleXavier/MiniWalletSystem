@@ -11,7 +11,7 @@ public static class DependencyInjection
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDbContext<WalletDbContext>(options => 
-        options.UseSqlite(configuration.GetConnectionString("DefaultConnection") ?? "Data Source=wallet.db"));
+        options.UseSqlite(configuration.GetConnectionString("DefaultConnection")));
         services.AddScoped<IWalletService, WalletService>();
         return services;
     }

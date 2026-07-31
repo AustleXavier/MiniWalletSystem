@@ -18,6 +18,7 @@ public interface IWalletService
     Task<WalletResponse> TransferAsync(TransferCommand command, CancellationToken ct);
     Task<WalletResponse?> GetAsync(Guid walletId, CancellationToken ct);
     Task<PagedResponse<TransactionResponse>> GetHistoryAsync(Guid walletId, TransactionType? type, DateTimeOffset? from, DateTimeOffset? to, int pageNumber, int pageSize, CancellationToken ct);
+    Task<PagedResponse<WalletResponse>> GetWalletAsync(DateTimeOffset? from, DateTimeOffset? to, int pageNumber, int pageSize, CancellationToken ct);
 }
 
 public sealed class DomainException(string message, int statusCode = 400) : Exception(message)
